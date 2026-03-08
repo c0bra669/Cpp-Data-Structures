@@ -11,6 +11,7 @@ add_library(Cpp-Data-Stuctures SHARED
   datastructures.h
   node.hpp
   bst.hpp
+  array.hpp
 
 )
 add_executable(
@@ -19,4 +20,9 @@ add_executable(
   node.hpp
   bst.hpp
   tests/bst_test.cpp)
+add_executable(
+  array_test
+  datastructures.h
+  tests/array_test.cpp
+)
 target_compile_definitions(Cpp-Data-Stuctures PRIVATE CPP_DATA_STUCTURES_LIBRARY)
