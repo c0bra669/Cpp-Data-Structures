@@ -67,7 +67,7 @@ int main() {
     }
 
     // 9️ Test print function
-    std::cout << "Array contents using print(): ";
+    std::cout << "Array contents using print(): \n";
     arr1.print();
     std::cout << "\n";
 

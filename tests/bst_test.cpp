@@ -60,19 +60,38 @@ int main() {
     // Test empty tree exception handling
     Bst<int> emptyBst;
     try {
-        emptyBst.min_value();
+        emptyBst.min();
         assert(false); // Should not reach here
     } catch (const std::runtime_error&) {
         std::cout << "Empty tree min_value() throws exception as expected.\n";
     }
 
     try {
-        emptyBst.max_value();
+        emptyBst.max();
         assert(false); // Should not reach here
     } catch (const std::runtime_error&) {
         std::cout << "Empty tree max_value() throws exception as expected.\n";
     }
 
     std::cout << "All tests passed successfully.\n";
+
+
+        DataStructures::Bst<int> tree;
+
+        tree.insert(10);
+        tree.insert(5);
+        tree.insert(15);
+        tree.insert(2);
+        tree.insert(7);
+
+        // expected sorted output
+        // 2
+        // 5
+        // 7
+        // 10
+        // 15
+        tree.print();
+
+
     return 0;
 }
