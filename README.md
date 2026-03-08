@@ -1,3 +1,7 @@
+#  ▄▖    ▄   ▗   ▄▖▗       ▗         
+#  ▌ ▛▌▛▌▌▌▀▌▜▘▀▌▚ ▜▘▛▘▌▌▛▘▜▘▌▌▛▘█▌▛▘
+#  ▙▖▙▌▙▌▙▘█▌▐▖█▌▄▌▐▖▌ ▙▌▙▖▐▖▙▌▌ ▙▖▄▌
+#    ▌ ▌                             
 # **CppDataStructures** is a hobby project in early development. It provides basic C++ data structures. **Not recommended for production use.**
 
 ---
@@ -11,7 +15,7 @@
 # Usage
 You can build and use the library in two ways:
 
-## 1️⃣ Using CMake
+## 1 Using CMake
 ```bash
 # From project root
 mkdir build
@@ -22,7 +26,7 @@ cmake --build .
 ### This generates shared library and test executables
 ./array_test
 ./bst_test
-## 2️⃣ Manual Compilation (g++)
+## 2 Manual Compilation (g++)
 ```bash
 #Compile shared library
 g++ -std=c++17 -fPIC -shared datastructures.cpp -o libcppdatastructures.so
