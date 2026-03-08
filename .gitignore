@@ -39,7 +39,8 @@ Thumbs.db
 *.pro.user*
 *.qbs.user*
 CMakeLists.txt.user*
-
+# garbage to make qt creator display project 
+a.c
 # xemacs temporary files
 *.flc
 
