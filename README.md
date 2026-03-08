@@ -1,7 +1,7 @@
-#  ▄▖    ▄   ▗   ▄▖▗       ▗         
-#  ▌ ▛▌▛▌▌▌▀▌▜▘▀▌▚ ▜▘▛▘▌▌▛▘▜▘▌▌▛▘█▌▛▘
-#  ▙▖▙▌▙▌▙▘█▌▐▖█▌▄▌▐▖▌ ▙▌▙▖▐▖▙▌▌ ▙▖▄▌
-#    ▌ ▌                             
+                                      ▄▖    ▄   ▗   ▄▖▗       ▗         
+                                      ▌ ▛▌▛▌▌▌▀▌▜▘▀▌▚ ▜▘▛▘▌▌▛▘▜▘▌▌▛▘█▌▛▘
+                                      ▙▖▙▌▙▌▙▘█▌▐▖█▌▄▌▐▖▌ ▙▌▙▖▐▖▙▌▌ ▙▖▄▌
+                                        ▌ ▌                             
 # **CppDataStructures** is a hobby project in early development. It provides basic C++ data structures. **Not recommended for production use.**
 
 ---
